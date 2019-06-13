@@ -1,0 +1,496 @@
+/*General Styeling*/
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    max-width:100%;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 300px;
+    overflow-x: hidden;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    padding: auto;
+    z-index: 2;
+    opacity: .6;
+    text-decoration: none;
+    color: inherit;
+}
+
+#scroll-to-top:hover {
+    opacity: .8;
+}
+
+.nav-bg {
+    background-color: #191919;
+}
+
+.text-blue {
+    /*color: #001f3f;*/
+    color: #191919;
+}
+
+.button-background {
+    background-color: #228b22;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+.bg-nav {
+    background-color: #11a3ca;
+}
+
+.fb {
+    color: #3b5998;
+}
+
+.twit {
+    color: #1da1f2;
+}
+
+.ig {
+    color: #c32aa3;
+}
+
+.linked {
+    color: #007bb5;
+}
+
+#above-footer {
+    position: absolute;
+    bottom: 41px;
+    border-bottom: 10px solid #333333;
+    background-color: #191919;
+    color: #ffffff;
+}
+
+#above-footer a {
+    text-decoration: none;
+    color: #6C757D;
+}
+
+#above-footer a:hover {
+    color: #ffffff;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    /*color: #eaffd6;*/
+    background-color: #191919;
+}
+/*End of General Styling*/
+
+
+/*Homepage Start*/
+#welcome h1 {
+    font-family: 'Signika', sans-serif;
+    /*color: #001f3f;*/
+    color: #191919;
+}
+
+#what-we-do h1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 50px;
+}
+
+#what-we-do h3 {
+    font-family: 'Signika', sans-serif;
+    color: #191919;
+}
+
+#about-brand-afrik h1 {
+    font-family: 'Signika', sans-serif;
+}
+
+#abt {
+    color: #191919;
+}
+
+#team h1 {
+    font-family: 'Signika', sans-serif;
+    /*color: #001f3f;*/
+    color: #191919;
+}
+
+#patners h1 {
+    font-family: 'Signika', sans-serif;
+    /*color: #001f3f;*/
+    color: #191919;
+}
+
+#homepage-large {
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#homepage-large-inner {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#homepage-large-inner h1 {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    color: #ff99cc;
+    font-family: airstrip;
+}
+
+.team-overlay {
+    position: absolute;
+    width:0%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-transition: width 0.2s;
+    -moz-transition: width 0.2s;
+    -ms-transition: width 0.2s;
+    -o-transition: width 0.2s;
+    transition: width 0.2s;
+}
+
+.team-overlay a {
+    position: relative;
+    margin-bottom: 10%;
+    text-decoration: none;
+    color: #f1f1f1;
+    top: 10%;
+    display: none;
+}
+
+.team-overlay a:hover {
+    color: #0074D9;
+}
+
+.team-card:hover a {
+    display: block;
+}
+
+.team-card:hover .team-overlay {
+    width: 100%;
+}
+
+.card-footer-links {
+    display: none;
+}
+
+.card-footer-links a i {
+    transition: transform 0.1s;
+}
+
+.card-footer-links a i:hover {
+    transform: scale(1.2);
+}
+
+#why-choose {
+    background: url("../images/brand Afrik Background.jpg") rgba(200,200,200,0.5) no-repeat center fixed;
+}
+
+#why-choose>div {
+    border: inset #C0C0C0 1px;
+}
+
+#why-choose-inner {
+    background-color: rgba(10,10,10,0.5);
+}
+
+#why-choose-inner p {
+    font-size: 20px;
+}
+
+.card-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.faint {
+    background-color: #fafafa;
+}
+/*Homepage End*/
+
+
+/*Start of About Us Page*/
+#about-us-top {
+    background: url('../images/Team/Sedem and Godfred.jpg') fixed center no-repeat;background-size: 100% 100%; height: 300px;
+}
+
+#full-team a {
+    text-decoration: none;
+}
+
+#full-team a i {
+    transition: transform 0.1s;
+}
+
+#full-team a i:hover {
+    transform: scale(1.2);
+}
+/*End of About Us*/
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+#courses .card {
+    width: 18rem;
+}
+
+/* Contact Page */
+#contact-main > div > div {
+    box-sizing: border-box;
+    padding: 100px;
+}
+/* Contact Page End */
+
+/*Custom Fonts*/
+@font-face {
+    font-family: airstrip;
+    src: url("../fonts/airstrip/airstrip.ttf");
+}
+
+@font-face {
+    font-family: jaapokki;
+    src: url("../fonts/jaapokki/jaapokki-regular.svg");
+    src: url("../fonts/jaapokki/jaapokki-regular.eot");
+    src: url("../fonts/jaapokki/jaapokki-regular.ttf");
+    src: url("../fonts/jaapokki/jaapokki-regular.woff");
+}
+/*End of Custom Fonts*/
+
+/*Blog*/
+/*Blog*/
+
+/*Media Queries*/
+
+@media (max-width: 400px) {
+    #homepage-large {
+        background-image: url("../images/Team/Team 5 (Small).jpg");
+        background-size: contain;
+    }
+
+    #welcome h1 {
+        font-size: 40px;
+    }
+
+    #full-team {
+        margin-bottom: 500px;
+    }
+
+    .team-card:hover .team-overlay {
+        width: 0%;
+        display: none;
+    }
+
+    .team-card:hover a {
+        display: inline;
+    }
+
+    .card-footer-links {
+        display: inline;
+    }
+
+    #courses .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #patners {
+        margin-bottom: 150px;
+    }
+
+    #full-team {
+        margin-bottom: 150px;
+    }
+
+    #homepage-large {
+        background-image: url("../images/Team/Team 5 (Small).jpg");
+    }
+
+    #homepage-large-inner {
+        display: none;
+    }
+
+    #homepage-large-inner h1 {
+        display: none;
+    }
+
+    #services-main {
+        margin-bottom: 150px;
+    }
+
+    #contact-main {
+        margin-bottom: 150px;
+    }
+
+    #services-h1 {
+        position: relative;
+        top:0%;
+    }
+
+    .team-card:hover .team-overlay {
+        width: 0%;
+        display: none;
+    }
+
+    .team-card:hover a {
+        display: inline;
+    }
+
+    .card-footer-links {
+        display: inline;
+    }
+
+    #courses .card {
+        width: 100%;
+    }
+
+    #fff {
+       margin-bottom: 150px; 
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #patners {
+        margin-bottom: 150px;
+    }
+
+    #homepage-large {
+        background-image: url("../images/Team/Team 5 (Small).jpg");
+    }
+
+    #homepage-large-inner {
+        display: none;
+    }
+
+    #homepage-large-inner h1 {
+        display: none;
+    }
+
+    .team-card:hover a {
+        display: none;
+    }
+
+    .team-card:hover .team-overlay {
+        width: 0%;
+    }
+
+    #full-team {
+        margin-bottom: 300px;
+    }
+
+    #services-main {
+        margin-bottom: 300px;
+    }
+
+    #contact-main {
+        margin-bottom: 300px;
+    }
+
+    .team-card:hover .team-overlay {
+        width: 0%;
+        display: none;
+    }
+
+    .team-card:hover a {
+        display: inline;
+    }
+
+    .card-footer-links {
+        display: inline;
+    }
+
+    #courses .card {
+        width: 100%;
+    }
+
+    /*#courses > .container > .row > div::last-child {
+        margin-bottom: 500px;
+    }*/
+
+    #fff {
+       margin-bottom: 150px; 
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #courses .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+/*End of Media Queries*/
