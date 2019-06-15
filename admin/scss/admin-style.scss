@@ -2,11 +2,11 @@
 $login-background : #a1a1a1;
 $input-width : 400px;
 $input-height : 40px;
-$form-background : rgb(44, 2, 48);
+$purple : rgb(44, 2, 48);
 $button-color : rgb(22, 182, 1);
 
 //Styling start
-body {
+.login-main {
     background-color: $login-background;
 }
 
@@ -17,7 +17,7 @@ body {
     padding: 30px 50px 50px;
     //box-shadow: 1px 2px 5px #717171;
     background: {
-        color: $form-background;
+        color: $purple;
     }
     margin-top: 150px;
 }
@@ -52,4 +52,29 @@ body {
         color: #f1f1f1;
     }
     color : white;
+}
+
+.admin {
+    &-left-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height:100%;
+        background-color: $purple;
+    }
+
+    &-content-area {
+        box-sizing: border-box;
+        margin-left: 250px;
+        //padding: 10px;
+    }
+
+    &-header {
+        padding: 5px 10px;
+        height: 40px;
+        background-color: #161616;
+        color: white;
+    }
+    
 }
