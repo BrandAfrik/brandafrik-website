@@ -1,7 +1,55 @@
 //Variables
-$login-background : green;
+$login-background : #a1a1a1;
+$input-width : 400px;
+$input-height : 40px;
+$form-background : rgb(44, 2, 48);
+$button-color : rgb(22, 182, 1);
 
 //Styling start
 body {
     background-color: $login-background;
+}
+
+.form-container {
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px 50px 50px;
+    //box-shadow: 1px 2px 5px #717171;
+    background: {
+        color: $form-background;
+    }
+    margin-top: 150px;
+}
+
+.input-design {
+    & input {
+        width: $input-width;
+        height: $input-height;
+        box-sizing: border-box;
+        padding: 0 10px;
+        border: {
+            radius: 5px;
+            style: solid;
+            width: 1px;
+            color: #313131;
+        }
+        font: {
+            size: 1.2em;
+            family: 'Calibri';
+        }
+    }
+}
+
+#login-button {
+    width: $input-width;
+    height: $input-height;
+    background-color: $button-color;
+    border: {
+        radius: 2px;
+        style: solid;
+        width: 2px;
+        color: #f1f1f1;
+    }
+    color : white;
 }
