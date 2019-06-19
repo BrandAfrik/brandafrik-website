@@ -10,26 +10,33 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="admin-left-sidebar">
-            
-        </div>
+        <?php include_once 'admin_includes/sidebar.php' ?>
 
         <div class="admin-content-area">
             <header class="admin-header" class="pl-3">
-                <h4>Dashboard</h4>
+                <h4 style="float:left">Dashboard</h4>
+
+                <?php include_once 'admin_includes/right_user_details.php' ?>
             </header>
-            <div class="container">
+            <div class="container-fluid mt-4">
+                <h3>Overview</h3>
                 <div class="row">
                     <div class="col-md-4">
-                        <h4 class="text-center">Users</h4>
+                        <div class="p-2" style="width:90%; height:100px; background-color:#f1f1f1">
+                            <h1>Users</h1>
+                        </div>
                     </div>
 
                     <div class="col-md-4">
-                        <h4 class="text-center">Posts</h4>
+                        <div class="p-2" style="width:90%; height:100px; background-color:#f1f1f1">
+                            <h1>Posts</h1>
+                        </div>
                     </div>
 
                     <div class="col-md-4">
-                        <h4 class="text-center">Others</h4>
+                        <div style="width:90%; height:100px; background-color:#f1f1f1">
+                            <h1>...</h1>
+                        </div>
                     </div>
                 </div>
             </div>

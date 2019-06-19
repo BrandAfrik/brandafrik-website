@@ -62,6 +62,10 @@ $button-color : rgb(22, 182, 1);
         width: 250px;
         height:100%;
         background-color: $purple;
+
+        &-menu > ul li a:hover {
+            background-color: #a1a1a1;
+        }
     }
 
     &-content-area {
@@ -78,3 +82,18 @@ $button-color : rgb(22, 182, 1);
     }
     
 }
+
+/*Custom Fonts*/
+@font-face {
+    font-family: airstrip;
+    src: url("../../fonts/airstrip/airstrip.ttf");
+}
+
+@font-face {
+    font-family: jaapokki;
+    src: url("../../fonts/jaapokki/jaapokki-regular.svg");
+    src: url("../../fonts/jaapokki/jaapokki-regular.eot");
+    src: url("../../fonts/jaapokki/jaapokki-regular.ttf");
+    src: url("../../fonts/jaapokki/jaapokki-regular.woff");
+}
+/*End of Custom Fonts*/
