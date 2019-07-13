@@ -290,9 +290,10 @@ footer {
 }
 /*End of About Us*/
 
+/* Set the size of the div element that contains the map */
 #map {
-    width: 100%;
-    height: 400px;
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
 }
 
 #courses .card {
@@ -300,7 +301,7 @@ footer {
 }
 
 /* Contact Page */
-#contact-main > div > div {
+#contact-main > div .details {
     box-sizing: border-box;
     padding: 100px;
 }
@@ -353,6 +354,19 @@ footer {
         display: inline;
     }
 
+    #hj {
+        height: 300px;
+    }
+
+    #contact-main {
+        margin-bottom: 400px;
+    }
+
+    #contact-main > div .details {
+        box-sizing: border-box;
+        padding: 70px;
+    }
+
     #courses .card {
         width: 100%;
     }
@@ -384,7 +398,7 @@ footer {
     }
 
     #contact-main {
-        margin-bottom: 150px;
+        margin-bottom: 300px;
     }
 
     #services-h1 {
@@ -407,6 +421,14 @@ footer {
 
     #courses .card {
         width: 100%;
+    }
+
+    #hj {
+        height: 300px;
+    }
+
+    #contact-main {
+        margin-bottom: 400px;
     }
 
     #fff {
@@ -450,7 +472,11 @@ footer {
     }
 
     #contact-main {
-        margin-bottom: 300px;
+        margin-bottom: 400px;
+    }
+
+    #hj {
+        height: 300px;
     }
 
     .team-card:hover .team-overlay {
