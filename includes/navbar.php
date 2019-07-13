@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a id="home" class="nav-item nav-link mr-3" href="https://brandafrik.com/">Home <span class="sr-only">(current)</span></a>
-                <a id="blog" class="nav-item nav-link mr-3" href="blog">Blog</a>
+                <!-- <a id="blog" class="nav-item nav-link mr-3" href="blog">Blog</a> -->
                 <a id="about" class="nav-item nav-link mr-3" href="about">About Us</a>
                 <a id="services" class="nav-item nav-link mr-3" href="services">Services</a>
                 <!-- <a id="register" class="nav-item nav-link mr-3" href="courses">Courses</a> -->
