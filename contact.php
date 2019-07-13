@@ -25,7 +25,7 @@
                 <h1>Our Contact Details</h1>
 
                 <h5>Email : info@brandafrik.com</h5>
-                <h5 class="mt-5">Telephone : <a class="" href="tel:+233544813264"></i> O544813264</a></h5>
+                <h5 class="mt-5">Telephone : <a class="text-white" style="text-decoration:none" href="tel:+233544813264"></i> O544813264</a></h5>
             </div>
 
             <div id="hj" class="col-md-6" style="background: url('images/woman-call.jpg')center no-repeat;background-size: 100% 100%;">
