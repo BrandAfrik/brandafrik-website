@@ -21,20 +21,20 @@
 
     <div id="contact-main" style="height:400px;">
         <div class="row" style="height:100%">
-            <div class="col-md-6 bg-success">
+            <div class="details col-md-6 button-background text-white">
                 <h1>Our Contact Details</h1>
 
-                <h5>Email : </h5>
-                <h5>Telephone : </h5>
+                <h5>Email : info@brandafrik.com</h5>
+                <h5 class="mt-5">Telephone : <a class="" href="tel:+233544813264"></i> O544813264</a></h5>
             </div>
 
-            <div class="col-md-6">
-
+            <div id="hj" class="col-md-6" style="background: url('images/woman-call.jpg')center no-repeat;background-size: 100% 100%;">
+                <div class="text-center" style="position: relative;width: 100%; height: 100%;background-color: rgba(0,0,0,0.5)">
+                    
+                </div>
             </div>
         </div>
     </div>
-
-
     <?php include_once 'includes/above_footer.php'?>
     <?php include_once 'includes/footer.php'?>
 
@@ -43,6 +43,7 @@
 
         $(".navbar").removeClass("bg-transparent");
         $(".navbar").addClass("nav-bg");
+        
     </script>
 
       <!--Tawk Widget-->
